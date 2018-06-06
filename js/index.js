@@ -19,8 +19,6 @@ function addItem() {
    }
   }
 
-
-
 if(localStorage.storedList) {
    loadList();
   }
