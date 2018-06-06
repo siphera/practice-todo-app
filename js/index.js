@@ -6,7 +6,7 @@ function addItem() {
    saveList();
   }
   function removeItem() {
-   document.getElementById("list").removeChild(this);
+   // document.getElementById("list").removeChild(this);
    saveList();
   }
   function saveList() {
