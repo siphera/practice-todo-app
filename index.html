@@ -1,8 +1,23 @@
 <!DOTYPE html>
 <html>
-<head>
-</head>
 
+<head>
+    <title>my to-do app</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+  <div class="header">
+ <h1>MY TO-DO LIST</h1>
+  </div>
+
+  <div class="app">
+  <p style="font-size:18px; font-style:bold;">Special Exhibition To-Do List</p>
+  <input type="text" id="box" value="Type here to add task"/>
+  <br/>
+  <input type="button" value="Add item" onclick="addItem();"/>
+  <br/>
+   <div id="list"></div>
+ </div>
+
 </body>
 </html>
